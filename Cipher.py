@@ -61,5 +61,5 @@ def decoding(message, key):
         decoded_message += x
     return decoded_message 
 
-print(encoding(message, 1))
-print(decoding(encoded_message, 1))
+print(encoding(message, 5))
+print(decoding(encoding(message,5), 5 ))
