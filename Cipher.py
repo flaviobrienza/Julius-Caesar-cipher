@@ -34,7 +34,6 @@ for k,v in positions.items():
     positions2[v]=k
 
 message = 'hi my name is flavio'
-encoded_message = ''
 
 def encoding(message, key):
     encoded_message = '' 
