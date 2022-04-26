@@ -36,13 +36,6 @@ for k,v in positions.items():
 message = 'hi my name is flavio'
 encoded_message = ''
 
-for e in message:
-    e = positions[e]
-    e = e + 1
-    e = positions2[e]
-    encoded_message += e
-
-
 def encoding(message, key):
     encoded_message = '' 
     for e in message:
